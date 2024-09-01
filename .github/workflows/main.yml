@@ -24,8 +24,7 @@ jobs:
         pip install flake8
         
     - name: Print working directory
-      run: |
-        pwd
+      run: pwd
         
     - name: Run Linter
       run: |
